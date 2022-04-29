@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+    <title>간단한 html</title>
+<style>
+	h1 { color: red; }
+	p {color: green; }
+	/* ul li {color: blue; } */
+
+	/* class  */
+	.animal {color: blue; }
+	.fruit {color: orange; }
+
+	/* id  */
+	#cat {color:brown;}
+    
+    table, th, td {
+        border : 1px solid black;
+        border-collapse : collapse;
+    }
+    
+    #books b {
+        background-color: cyan;
+    }
+
+</style>
+</head>
+<body>
+    <h1>header</h1>
+    <p>This is a paragraph</p>
+    <div>이것은 <br> div 입니다</div>
+    <ul>
+        <li class="animal">dog</li>
+        <li class="animal" id="cat">cat</li>
+        <li class="animal">frog</li>
+        <li class="animal">this</li>
+    </ul>
+    <ul>
+        <li class="fruit">apple  </li>  <!-- 일부러 공백 띄었다 -->
+        <li class="fruit">ba<b>nana</b></li>
+        
+    </ul>
+    <ol>
+        <li><a href="https://www.naver.com" title="최고포탈">네이버</a></li>
+        <li><a href="https://www.daum.net">daum</a></li>
+        <li class="animal">fish</li>  <!-- 일부러 여기도 animal 을 넣었다 -->
+             <!-- 일부러 a 가 없는 li 를 넣어보았다 -->
+    </ol>
+    
+    <hr>
+    <table id="books">
+        <thead>
+        <tr>
+            <th>제목</th>
+            <th>가격</th>
+        </tr>  
+        </thead>
+        <tbody>
+        <tr>
+            <td>1.이것이 파이썬이다</td>
+            <td><b>[도서]</b> 19,200원</td>
+        </tr>    
+        <tr>
+            <td>2.저것도 파이썬이다</td>
+            <td><b>[할인]</b> 12,800원</td>
+        </tr>    
+        <tr>
+            <td>3.그래도 파이썬인가?</td>
+            <td><b>[중고]</b> 6,500원</td>
+        </tr>  
+        </tbody>    
+    </table>
+    
+</body>
+</html>
+
+
